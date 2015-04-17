@@ -1,0 +1,128 @@
+/* Global Styles */
+
+body {
+  background-color: lightblue;
+}
+
+h3 {
+  font-family: 'Corben', Georgia, Times, serif;
+  font-size: 1.3em;
+}
+
+.right {
+  float: right;
+}
+
+.login h4 {
+  margin-bottom: 5px;
+  color: rgb(70,168,175);
+}
+p {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+
+/* Put the darker blue color in background below the navbar */
+.darker-blue {
+	background-color: #78cbd1; 
+	width: 100%; 
+	height: 100%;
+}
+
+.top_section {
+  border-radius: 25px 25px 0 0;
+  background-color: white;
+  width: 80%;
+}
+
+.top_section > .pure-u-1-2 > img {
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+.pure-g {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Navigation */
+
+ul  {
+  display: block;
+  letter-spacing: 1px;
+  padding-right: 100px;
+}
+
+.topnav {
+  margin-top: 68px;
+}
+
+
+ h3 {
+  display: block;
+  letter-spacing: 1px;
+  font-size: small;
+  color: lightblue;
+}
+
+.navbar_and_search > .nav_and_search_wrapper > ul {
+    padding-top: 0px;
+    float: left;
+}
+
+.navbar_and_search > .nav_and_search_wrapper > ul > li {
+  display: inline;
+  padding-left: 15px;
+}
+
+
+.search {
+  float: right;
+  padding-top: 10px;
+  border-radius: 15px;
+}
+
+input[type="text"] {
+  border-radius: 15px;
+  border-color: red;
+  padding-left: 10px;
+  color: red;
+  margin-right: 40px;
+}
+
+.navbar_and_search {
+  background-color: pink;
+  height: 50px;
+  font-family: 'Corben', Georgia, Times, serif;
+}
+
+
+.navbar_and_search > .nav_and_search_wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Lower Styles */
+/*
+.under_section {
+  width: 80%;
+  clear: both;
+  background-color: white;
+  border-radius: 0 0 25px 25px;
+}
+
+.under_section > .pure-u-1-1 >.pure-u-1-2 {
+  margin-top: 30px;
+}
+
+.under_section > .pure-u-1-1 > .pure-u-1-2 > h3 {
+  color: #5AD156;
+}
+
+.button-error {
+  background: rgb(202, 60, 60);
+  color: white;
+}
+
