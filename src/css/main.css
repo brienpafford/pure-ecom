@@ -107,7 +107,7 @@ input[type="text"] {
 }
 
 /* Lower Styles */
-
+/*
 .under_section {
   width: 80%;
   clear: both;
@@ -127,3 +127,4 @@ input[type="text"] {
   background: rgb(202, 60, 60);
   color: white;  
 }
+
