@@ -87,7 +87,7 @@ ul  {
   display: inline;
   padding-left: 50px;
   float: left;
-
+  color: rgb(125, 37, 87);
 }
 
 .search {
@@ -110,12 +110,12 @@ ul  {
   border-radius: 0 0 25px 25px;
 }
 
-.under_section 
 
-/*> .pure-u-1-5 {
+
+ .pure-u-1-5 {
   margin-top: 30px;
   background-color: #F0F9D2;
-}*/
+ }
 
 .button-error {
   background: rgb(202, 60, 60);
@@ -123,11 +123,100 @@ ul  {
 }
 
 .pure-u-1-5 {
-  width: 20%;
+  
   background color: #F0F9D2;
 }
 
-.pure-u-3-5 {
+.pure-u-4-5 {
+  float: right;
+  border-color: 1px red;
+}
+
+
+.pure-table.pure-table-horizontal {
+  
+  border-spacing: 100px;
+  border-collapse: collapse;
+  padding: 0
+  border: 0px solid;
+}
+
+.ecom-table > tr > td > p{
+  font-size: 10px;
+  color: red;
+} 
+
+
+footer {
+  height: 200px;
+  font-size: 16px;
+  width: 400px;
+}
+
+.footer ul {
+  text-align: center;
+}
+
+
+.footer li {
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  float: center;
+  position: relative;
+  padding: 3px 5px;
+  color: #f0ffff;
+  font-size: 14px;
+  opacity: 0.60;
+}
+
+
+.links {
   float: right;
 }
 
+.links ul {
+  text.align: right;
+  height: 60px;
+}
+
+.links li {
+  margin: 0px;
+  text-align: right;
+  display: inline-block;
+  list-style-type: none;
+  float: center;
+  position: relative;
+  padding: 3px 5px;
+  color: #95A661;
+  font-size: 14px;
+  opacity: 0.60;
+}
+
+.filter_table {
+ border-radius 25px;
+ width: 100%;
+ height:90%;
+  background-color: rgb(237, 250, 209);
+
+}
+
+.filter_table > .search_and_button {
+display: inline;
+}
+.under_section > .pure-u-1-1 >.pure-u-1-2 {
+ margin-top: 30px;
+}
+
+.under_section > .pure-u-1-1 > .pure-u-1-2 > h3 {
+ color: #5AD156 ;
+}
+
+.pure-primary {
+ background-color: rgb(138, 185, 57);
+ color: white;
+}
+.fieldset {
+ padding-left: 50px; 
+}
