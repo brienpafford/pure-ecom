@@ -111,14 +111,13 @@ ul  {
 
 input[type="text"] {
   border-radius: 15px;
-  border-color: rgb(225,145,160);
+  border-color: $backgroundnavbar;
   padding-left: 10px;
-  color: red;
   position:relative;
 }
 
 .navbar_and_search {
-  background-color: rgb(244, 201, 208);
+  background-color: $backgroundnavbartext;
   height: 50px;
   font-family: 'Corben', Georgia, Times, serif;
 }
